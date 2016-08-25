@@ -1,0 +1,47 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	padding-top: 200px;
+	font-size: 26px;
+	color: white;
+}
+h3 {
+	font-size: 20px;
+	color: white;
+}
+ul li {
+	display: inline;
+}
+.header {
+	width: 800px;
+	border: 1px solid black;
+	background-color: black;
+}
+.header2 {
+	width: 800px;
+	height: 300px;
+	text-align: center;
+	background: #999999 url(img/header.jpg) center no-repeat;
+	border-bottom: 10px solid white;
+}
+.content p , .content img
+{
+  display: inline;
+}
+.bird {
+	width: 33.33%;
+	height: 200px;
+	float: left;
+}
+.bird img {
+	display: block;
+	width: 100%;
+}
